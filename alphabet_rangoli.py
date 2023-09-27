@@ -44,10 +44,11 @@ import string
 
 
 def print_rangoli(size):
-    width = 4 * size - 3 #setting the width needed to fit the pattern
-    alpha = string.ascii_lowercase #generating all the letters of the alphabet as a string
-    for i in list(range(size))[::-1] + list(range(1, size)): #looping through all the numbers from 0 to 9in reverse (9,8,7,6,5,4,3,2,1,0) and then increment of 1 after reaching 0 (1,2,3,4,5,6,7,8,9).
-        print('-'.join(alpha[size-1:i:-1] + alpha[i:size]).center(width, '-'))
+    width = 4 * size - 3
+    alpha = string.ascii_lowercase
+    for i in list(range(size))[::-1] + list(range(1, size)):
+        # print('-'.join(alpha[size-1:i:-1] + alpha[i:size]).center(width, '-'))
+        print(i)
 
 
 
