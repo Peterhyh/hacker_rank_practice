@@ -23,5 +23,5 @@ def minion_game(string):
         
 
 
-s = 'BANANA'
+s = 'TOMATO'
 minion_game(s)
