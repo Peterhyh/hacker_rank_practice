@@ -1,6 +1,6 @@
 import re
 
-string = '1234567890'
+string = '1234567890221'
 
 match = re.match(r'.*(\d)(?=.*\1)', string)
 
