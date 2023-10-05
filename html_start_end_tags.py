@@ -1,3 +1,5 @@
+#LESSON: html.parser, HTMLParser, handle_starttag, handle_endtag, handle_startendtag, .feed() method
+
 from html.parser import HTMLParser
 
 class MyHTMLParser(HTMLParser):
