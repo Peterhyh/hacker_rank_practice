@@ -1,6 +1,6 @@
 import re
 
-x = 'B1cD102354'
+x = 'B1CD102354'
 
 uppercase_pattern = r'[A-Z]'
 number_pattern = r'[0-9]'
