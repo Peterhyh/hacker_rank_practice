@@ -21,3 +21,14 @@
 # for combo in combinations_with_replacement(sorted(string), int(char_length)):
 #     print(''.join(combo))
 #-------------------------------------------------------------------------------------------------------------------------------------------
+
+#PART 3 Using groupby()
+from itertools import groupby
+
+test_integer = '1222311'
+
+array = ''
+
+for number, count in groupby(test_integer):
+    array += (f'({len(list(count))}, {number}) ')
+print(array)
