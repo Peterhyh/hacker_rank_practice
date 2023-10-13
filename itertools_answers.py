@@ -23,12 +23,35 @@
 #-------------------------------------------------------------------------------------------------------------------------------------------
 
 #PART 3 Using groupby()
-from itertools import groupby
+# from itertools import groupby
 
-test_integer = '1222311'
+# test_integer = '1222311'
 
-array = ''
+# array = ''
 
-for number, count in groupby(test_integer):
-    array += (f'({len(list(count))}, {number}) ')
-print(array)
+# for number, count in groupby(test_integer):
+#     array += (f'({len(list(count))}, {number}) ')
+# print(array)
+#-------------------------------------------------------------------------------------------------------------------------------------------
+
+#PART 4 find out the probability of one 'a' in all possible combinations
+
+# from itertools import combinations
+
+# list_length = 4
+# string = 'a a c d'
+
+# letters = string.split()
+
+# selected_index = 2
+
+# combination_list = list(combinations(letters, selected_index))
+
+# count = 0
+
+# for i in combination_list:
+#     if 'a' in i:
+#         count += 1
+
+# print(count/len(combination_list))
+#-------------------------------------------------------------------------------------------------------------------------------------------
