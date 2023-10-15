@@ -36,22 +36,22 @@
 
 #PART 4 find out the probability of one 'a' in all possible combinations
 
-# from itertools import combinations
+from itertools import combinations
 
-# list_length = 4
-# string = 'a a c d'
+list_length = 4
+string = 'a a c d'
 
-# letters = string.split()
+letters = string.split()
 
-# selected_index = 2
+selected_index = 2
 
-# combination_list = list(combinations(letters, selected_index))
+combination_list = list(combinations(letters, selected_index))
 
-# count = 0
+count = 0
 
-# for i in combination_list:
-#     if 'a' in i:
-#         count += 1
+for i in combination_list:
+    if 'a' in i:
+        count += 1
 
-# print(count/len(combination_list))
+print(count/len(combination_list))
 #-------------------------------------------------------------------------------------------------------------------------------------------
