@@ -55,3 +55,20 @@
 
 # print(count/len(combination_list))
 #-------------------------------------------------------------------------------------------------------------------------------------------
+
+#PART 5 Maximize it!
+
+lines, num = input().split()
+
+max_list = []
+total = 0
+
+for i in range(int(lines)):
+    max_num = max(list(map(int, input().split())))
+    max_list.append(max_num)
+    
+for item in max_list:
+    total += item**2
+    
+print(total)
+#-------------------------------------------------------------------------------------------------------------------------------------------
