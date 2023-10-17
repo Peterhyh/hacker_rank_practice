@@ -57,32 +57,32 @@
 #-------------------------------------------------------------------------------------------------------------------------------------------
 
 #PART 5 Maximize it!
-from itertools import product
+# from itertools import product
 
-line = '3 1000'
-arrays = ['2 5 4', '3 7 8 9', '5 5 7 8 9 10']
+# line = '3 1000'
+# arrays = ['2 5 4', '3 7 8 9', '5 5 7 8 9 10']
 
-K = int(line.split()[0])
+# K = int(line.split()[0])
 
-M = int(line.split()[1])
+# M = int(line.split()[1])
 
-N = []
+# N = []
 
-for i in range(int(K)):
-    array = arrays[i].split()
-    array = [int(n) for n in array]
-    array = array[1:]
-    N.append(array)
+# for i in range(int(K)):
+#     array = arrays[i].split()
+#     array = [int(n) for n in array]
+#     array = array[1:]
+# #     N.append(array)
     
-product_values = list(product(*N))
+# # product_values = list(product(*N))
 
-maxi = 0
-for j in product_values:
-    sum = 0
-    for k in j:
-        sum += k**2
-    modu = sum % M
-    if modu > maxi:
-        maxi = modu
-print(maxi)
+# # maxi = 0
+# for j in product_values:
+#     sum = 0
+#     for k in j:
+#         sum += k**2
+#     modu = sum % M
+#     if modu > maxi:
+#         maxi = modu
+# print(maxi)
 #-------------------------------------------------------------------------------------------------------------------------------------------
