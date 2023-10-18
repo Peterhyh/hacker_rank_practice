@@ -56,7 +56,7 @@
 # print(count/len(combination_list))
 #-------------------------------------------------------------------------------------------------------------------------------------------
 
-#PART 5 Maximize it!
+#PART 5 Maximize it! Using product()
 # from itertools import product
 
 # line = '3 1000'
